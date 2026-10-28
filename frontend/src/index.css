@@ -1,0 +1,63 @@
+:root {
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+  color: #292b25;
+  background: #fcfaf5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --paper: #fcfaf5;
+  --ink: #292b25;
+  --muted: #77766d;
+  --coral: #e16b55;
+  --sage: #e9eee4;
+  --line: #e9e5db;
+  --body: 'DM Sans', 'Segoe UI', sans-serif;
+  --display: 'DM Serif Display', Georgia, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid #c65a46;
+  outline-offset: 3px;
+}
+
+::selection {
+  color: #fff;
+  background: #c65a46;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
